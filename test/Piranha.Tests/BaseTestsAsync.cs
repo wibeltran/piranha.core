@@ -31,6 +31,7 @@ public abstract class BaseTestsAsync : IAsyncLifetime
     public abstract Task InitializeAsync();
     public abstract Task DisposeAsync();
 
+
     protected static IServiceCollection CreateServiceCollection()
     {
         return new ServiceCollection()
